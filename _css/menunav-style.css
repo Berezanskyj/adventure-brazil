@@ -43,50 +43,49 @@ nav#navmenu ul li a{
 
 
 .footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: #FFEBB7;
-    padding: 20px;
-    /* border-top: 5px solid #e88e2e; */
+    /* padding: 10px; */
     position: absolute;
     bottom: -1000px;
     left: -20px;
     right: 0px;
-    height: 60px;
+    /* height: 60px; */
 }
 
-.address {
-    background-color: #e88e2e;
-    padding: 10px;
-    border-radius: 5px;
-    color: #000;
-    margin-left: 620px;
+.conteudo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFEBB7;
+    /* margin-bottom: 500px; */
+}
+
+.endereco{
+    text-align: center;
+    justify-content: center;
+    padding: 35px;
+    background-color: #F3A559;
+    margin-right: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 7px;
     font-family: "Montserrat", sans-serif;
-    font-weight: 500;
+    box-shadow: 11px 10px 26px -4px rgba(0,0,0,1);
+
+    /* margin-bottom: 100px; */
+    /* margin-bottom: -50px; */
 }
 
-
-.contacts {
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-    margin-right: 500px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-}
-
-.contacts div {
-    background-color: #e88e2e;
-    padding: 10px;
+.contatos{
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: #F3A559;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 5px;
-    color: #000;
-    margin-top: 5px;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 11px 10px 26px -4px rgba(0,0,0,1);
+    /* margin-bottom: 100px; */
 }
-
-.contacts div:first-child {
-    margin-top: 0;
-}
-
-
-
