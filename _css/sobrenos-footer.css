@@ -1,0 +1,113 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body{
+    height: 100%;
+}
+
+nav#navmenu ul{
+    background-color: #FFEBB7;
+    margin: -10px -8px -10px;
+    background-image: url(../_images/logo.svg);
+    /* background-position:center; */
+    background-position:30px;
+    background-repeat: no-repeat;
+    background-size: 140px 60px;
+    text-align: center;
+    padding: 30px;
+}
+
+nav#navmenu ul li{
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+nav#navmenu ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 17pt;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding: 60px;
+    /* margin-right: 60px; */
+
+}
+
+.link:hover{
+    background-color: #FFEBB7;
+    color: rgb(0, 0, 0);
+    transform: scale(1.2)
+}
+
+.link:before {
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 3px;
+    bottom: -3px;
+    left: 65px;
+    background-color: #000000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+
+.link:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+
+.footer {
+    background-color: #FFEBB7;
+    /* padding: 10px; */
+    position: absolute;
+    bottom: -300px;
+    left: -20px;
+    right: 0px;
+    /* height: 60px; */
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFEBB7;
+    /* margin-bottom: 500px; */
+}
+
+.endereco{
+    text-align: center;
+    justify-content: center;
+    padding: 35px;
+    background-color: #F3A559;
+    margin-right: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 11px 10px 26px -4px rgba(0,0,0,1);
+
+    /* margin-bottom: 100px; */
+    /* margin-bottom: -50px; */
+}
+
+.contatos{
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: #F3A559;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 11px 10px 26px -4px rgba(0,0,0,1);
+    /* margin-bottom: 100px; */
+}
