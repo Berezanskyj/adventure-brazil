@@ -30,6 +30,7 @@ div#botoes{
     border-radius: 5px;
     color: #E9B06F;
     text-decoration: none;
+    
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
 }
 
@@ -43,6 +44,28 @@ div#botoes{
     color: white;
     transform: scale(1.2)
 }
+
+.btn:before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    bottom: 6px;
+    left: 23px;
+    background-color: #ffffff;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+
+.btn:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
 
 .conteudo-principal{
     display: inline-block;
