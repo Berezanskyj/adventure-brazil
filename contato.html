@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="_css/menunav-style.css">
+    <link rel="stylesheet" href="_css/contato.css">
     <title>Contato</title>
 </head>
 <body>
@@ -21,6 +22,34 @@
 
         </nav>
     </header>
+
+    <div id="botoes">
+        <a href="" class="btn">Entrar</a>
+        <a href="" class="btn" id="registrar">Registrar</a>
+    </div>
+
+    <div class="formulario">
+        <fieldset>
+            <form action="contato.php" method="post">
+                <legend>Contato</legend>
+                <label for="nome" id="nome">Nome</label>
+                <input type="text" class="input-texto" maxlength="200">
+
+                <label for="telefone" id="telefone">Telefone</label>
+                <input type="text" class="input-texto">
+
+                <label for="email" id="email">E-mail</label>
+                <input type="email" class="input-texto">
+
+                <label for="orcamento" id="orcamento">Descrição do Orçamento</label>
+                <textarea name="" id="" cols="50" rows="15"></textarea>
+
+                <input type="submit" value="Enviar" id="enviar">
+            </form>
+
+            
+        </fieldset>
+    </div>
 
 
 
