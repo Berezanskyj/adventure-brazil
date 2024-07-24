@@ -22,40 +22,34 @@
 
         </nav>
     </header>
-    <main>
 
-        <div id="botoes">
-            <a href="" class="btn">Entrar</a>
-            <a href="" class="btn">Registrar</a>
-        </div>
+    <div id="botoes">
+        <a href="" class="btn">Entrar</a>
+        <a href="" class="btn" id="registrar">Registrar</a>
+    </div>
 
-
-        <h1 id="contato">Contato</h1>
-
-        <div class="formulario">
+    <div class="formulario">
+        <fieldset>
             <form action="contato.php" method="post">
-                <fieldset>
-                    <legend>Contato</legend>
+                <h1>Contato</h1>
+                <label>Nome</label>
+                <input type="text" class="input-texto" maxlength="200">
 
-                    <label for="nome">Nome
-                        <input type="text">
-                    </label>
+                <label>Telefone</label>
+                <input type="text" class="input-texto">
 
-                    <label for="telefone">Telefone
-                        <input type="text">
-                    </label>
+                <label>E-mail</label>
+                <input type="email" class="input-texto">
 
-                    <label for="email">E-mail
-                        <input type="email">
-                    </label>
+                <label>Descrição do Orçamento</label>
+                <textarea cols="50" rows="15"></textarea>
 
-                    <label for="orcamento">Descrição do Orçamento
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
-                    </label>
-                    
-                </fieldset>
+                <input type="submit" value="Enviar" id="enviar">
             </form>
-        </div>
+
+            
+        </fieldset>
+    </div>
 
 
 
@@ -64,27 +58,19 @@
 
 
 
-        <footer class="footer">
-            <div class="conteudo">
-                <div class="endereco">
-                    <p id="titulo-endereco"><strong>Endereço</strong></p>
-                    <p id="endereco">Rua Santa Catarina, 930 - Bairro Scharlau São Leopoldo/RS</p>
-                </div>
-                <div class="contatos">
-                    <p id="titulo-telefone"><strong>Telefones</strong></p>
-                    <p id="contato1">(51) 99298-3138</p>
-                    <p id="contato2">(51) 99298-3877</p>
-                </div>
+    <footer class="footer">
+        <div class="conteudo">
+            <div class="endereco">
+                <p id="titulo-endereco"><strong>Endereço</strong></p>
+                <p id="endereco">Rua Santa Catarina, 930 - Bairro Scharlau São Leopoldo/RS</p>
             </div>
-        </footer>
-    </main>
-
-
-
-
-
-
-
+            <div class="contatos">
+                <p id="titulo-telefone"><strong>Telefones</strong></p>
+                <p id="contato1">(51) 99298-3138</p>
+                <p id="contato2">(51) 99298-3877</p>
+            </div>
+        </div>
+    </footer>
     
 </body>
 </html>

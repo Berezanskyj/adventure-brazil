@@ -58,14 +58,14 @@ div#botoes{
     transform: scaleX(0);
     -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
-}
+  }
 
 
 .btn:hover:before {
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
-}
+  }
 
 .conteudo-principal{
     display: inline-block;
@@ -102,9 +102,14 @@ div#botoes{
     justify-content: flex-end;
     margin: -200px;
     padding: 0px;
+    transition: transform 0.3s ease;
     /* padding: 0px; */
     /* width: 400px; */
     /* height: 800px; */
+}
+
+.pgn-principal-camiseta:hover {
+    transform: translateY(-10px);
 }
 
 p#p-clientes{
