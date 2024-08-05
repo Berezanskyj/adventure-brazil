@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="_css/menunav-style.css">
+    <link rel="stylesheet" href="_css/registrar.css">
     <title>Registrar</title>
 </head>
 <body>
@@ -22,6 +23,34 @@
         </nav>
     </header>
 
+
+
+
+    <div class="container-pai">
+        <form action="registrar.php" method="post">
+            <label>Nome
+                <input type="text">
+            </label>
+            <label>Telefone
+                <input type="tel">
+            </label>
+            <label>E-mail
+                <input type="email">
+            </label>
+            <label>Senha
+                <input type="password">
+            </label>
+            
+        </form>
+    </div>
+    
+    <div class="botoes">
+        <form action="registrar.php" method="post" class="form-botoes">
+
+            <input type="submit" value="Registrar" >
+            <input type="reset" value="Limpar"  href="index.html">
+        </form>
+    </div>
 
 
 
