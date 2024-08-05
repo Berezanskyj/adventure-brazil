@@ -14,9 +14,18 @@ body {
     align-items: center;
     font-family: "Montserrat", sans-serif;
     margin-top: 250px;
-    
-    
+}
 
+legend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30pt;
+    margin-bottom: 50px;
+    background-color: #D1853C;
+    color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 15px 20px 41px -13px #685f48;
 }
 
 div form{
@@ -27,6 +36,7 @@ div form{
     border-radius: 8px;
     font-size: 15pt;
     font-weight: 500;
+    box-shadow: 15px 20px 41px -8px rgba(0,0,0,0.75);
 }
 
 div form label {
@@ -42,38 +52,22 @@ div form label input {
     border-radius: 5px;
 }
 
-.botoes{
+.botoes-container {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-left: 472px;
-    margin-right: 471px;
-    margin-top: -10px;
-    font-family: "Montserrat", sans-serif;
-    border-radius: 8px;
-    background-color: #D9CCAC;
-    
-}
-
-.form-botoes{
-    display: flex;
-    flex-direction: row;
-    margin: 0px;
-    padding: 0px;
-}
-
-.botoes input{
-    border: none;
-    font-weight: 500;
-    padding: 20px;
     justify-content: space-between;
-    margin: 50px;
-    cursor: pointer;
-    border-radius: 5px;
-    padding-left: 70px;
-    padding-right: 70px;
-    
-    
+    margin-top: 20px; /* Espaçamento superior opcional */
 }
 
+.botoes {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14pt;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.botoes:hover {
+    transform: scale(1.1);
+}
