@@ -1,0 +1,150 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #D1853C;
+}
+
+.container-pai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    margin: 150px 0px 0px 0px;
+}
+
+.formulario-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFEBB7;
+    padding: 0px 158px 104px 158px;
+    border-radius: 5px;
+    box-shadow: 8px 9px 53px -18px rgba(0,0,0,0.75);
+}
+
+.titulo{
+    color: #FC931A;
+    font-family: "Roboto", system-ui;
+    font-weight: 900;
+    font-size: 25pt;
+    font-style: normal;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    color: #FC931A;
+    font-family: "Roboto", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    padding: 9px;
+}
+
+/* label#senha{
+    padding: 32px;
+} */
+
+
+/* .esenha{
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    padding: 20px;
+} */
+
+/* box-botoes{
+    
+} */
+
+.botoes-container {
+    position: relative;
+    display: inline-block;
+}
+
+.botoes-container .botoes {
+    border: none;
+    text-decoration: none;
+    /* margin-right: 20px; */
+    padding: 10px 44px;
+    background-color: #FFEBB7;
+    margin-top: 80px;
+    font-family: "Roboto", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20pt;
+    color: #000000;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease, border 0.5s ease;
+    display: inline-block;
+}
+
+.botoes {
+    border: none;
+    text-decoration: none;
+    padding: 10px 44px;
+    background-color: #FFEBB7;
+    margin-top: 80px;
+    font-family: "Roboto", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20pt;
+    color: #000000;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease, border 0.5s ease;
+    position: relative;
+    display: inline-block;
+}
+
+.botoes:hover,
+.botoes-container .botoes:hover {
+    transform: scale(1.05);
+    background-color: #F0DBA5;
+    border-radius: 5px;
+}
+
+.botoes::after,
+.botoes-container::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    background: #000;
+    transition: width 0.5s ease;
+    bottom: -5px;
+    left: 0;
+}
+
+.botoes:hover::after,
+.botoes-container:hover::after {
+    width: 100%;
+}
+
+
+.text-box{
+    padding: 20px;
+    border: none;
+    margin-top: 8px;
+    padding-right: 100px;
+    border-radius: 5px;
+    background-color: #D9CCAC;
+    
+    
+}
+
+
+input#entrar{
+    cursor: pointer;
+    /* font-weight: 600;
+    font-size: ; */
+}
