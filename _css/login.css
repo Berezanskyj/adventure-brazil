@@ -48,7 +48,6 @@ label{
     font-family: "Roboto", system-ui;
     font-weight: 500;
     font-style: normal;
-    margin-bottom: 11px;
 }
 
 label#senha{
@@ -66,7 +65,17 @@ a#esqueci {
     font-style: normal;
 }
 
+/* .esenha{
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    padding: 20px;
+} */
 
+/* box-botoes{
+    
+} */
 
 .botoes-container {
     position: relative;

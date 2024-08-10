@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="_css/menunav-style.css">
+    <link rel="stylesheet" href="_css/login-footer.css">
+    <link rel="stylesheet" href="_css/login.css">
     <title>Login</title>
 </head>
 <body>
@@ -21,6 +22,35 @@
 
         </nav>
     </header>
+
+
+
+    <div class="container-pai">
+        <div class="formulario-login">
+            <div class="titulo">
+                <h1>Login</h1>
+            </div>
+            <form action="login.php" method="post" >
+                <label>E-mail
+
+                    <input type="email" class="text-box">
+                </label>
+                <label id="senha">Senha
+
+                    <input type="password" class="text-box">
+                    <a href="#" id="esqueci">Esqueci minha senha</a>
+                </label>
+
+                <div class="box-botoes">
+                    <div class="botoes-container">
+                        <input type="submit" value="Entrar" class="botoes" id="entrar">
+                    </div>
+                    <a href="index.html" class="botoes" id="voltar">Voltar</a>
+                </div>
+            </form>
+
+        </div>
+    </div>
 
 
 
